@@ -1,11 +1,11 @@
-# Gemma agent for AI Powered Super Hero Clashing Simulator
+#Gemma agent for AI Powered Super Hero Clashing Simulator
 #Will be used to pull stats on two selected super heros and 
 #create a story simulating their battle 
 
 #IMPORTS Dependencies 
 from flask import Flask, render_template
 
-app = Flask(__name__,template_folder='Pages', static_folder='static')
+app = Flask(__name__)
 app.config['APP_NAME'] = 'Super Hero Duke Out'
 
 
