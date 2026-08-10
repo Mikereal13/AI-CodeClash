@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['APP_NAME'] = 'Super Hero Duke Out'
 
 
-#pages
+#Pages
 @app.route("/")
 def login():
     return render_template("home.html")
