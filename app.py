@@ -1,4 +1,6 @@
-# Ollama agent for Duke Out Example
+# Gemma agent for AI Powered Super Hero Clashing Simulator
+#Will be used to pull stats on two selected super heros and 
+#create a story simulating their battle 
 
 #IMPORTS Dependencies 
 from flask import Flask, render_template
